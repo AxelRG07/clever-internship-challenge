@@ -8,6 +8,6 @@ def digitsSum(n):
 
     return suma
 
-inputInt = int(input())
-
-print(digitsSum(inputInt))
+if __name__ == '__main__':
+    inputInt = int(input())
+    print(digitsSum(inputInt))

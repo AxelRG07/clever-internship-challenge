@@ -10,6 +10,6 @@ def integerSort(arr):
 
     return integerSort(l) + m + integerSort(r)
 
-inputArr = [5,5,3]
-
-print(integerSort(inputArr))
+if __name__ == '__main__':
+    inputArr = [5,5,3]
+    print(integerSort(inputArr))

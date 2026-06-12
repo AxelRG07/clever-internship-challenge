@@ -13,5 +13,6 @@ def isPalindrome(str):
 
     return True
 
-inputStr = input()
-print(isPalindrome(inputStr))
+if __name__ == '__main__':
+    inputStr = input()
+    print(isPalindrome(inputStr))
